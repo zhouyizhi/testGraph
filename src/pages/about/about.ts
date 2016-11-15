@@ -91,14 +91,14 @@ export class AboutPage {
                 labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
                 datasets: [{
                   label: '# of One',
-                  fillColor : 'rgba(220,220,220,0.5)',
-                  strokeColor : 'rgba(220,220,220,1)',
+                  backgroundColor : ['rgba(0,0,0,0.5)','rgba(0,0,0,0.5)','rgba(0,0,0,0.5)',
+                  'rgba(0,0,0,0.5)','rgba(0,0,0,0.5)','rgba(0,0,0,0.5)','rgba(0,0,0,0.5)'],
                   data : [65,59,90,81,56,55,40]
                 },
                 {
                   label: '# of Two',
-                  fillColor : 'rgba(151,0,0,0.5)',
-                  strokeColor : 'rgba(151,187,205,1)',
+                  backgroundColor : ['rgba(0,0,255,0.5)','rgba(0,0,255,0.5)','rgba(0,0,255,0.5)','rgba(0,0,255,0.5)',
+                  'rgba(0,0,255,0.5)','rgba(0,0,255,0.5)','rgba(0,0,255,0.5)'],
                   data : [28,48,40,19,96,27,100]
                 }]
             },
